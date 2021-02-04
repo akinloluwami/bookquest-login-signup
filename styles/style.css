@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+.signupContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+}
+
+.signupContainer .logo img {
+  width: 200px;
+}
+
+.signupContainer .signupFormContainer {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.signupContainer .signupFormContainer h1 {
+  color: #00bfff;
+}
+
+.signupContainer .signupFormContainer .fullNameContainer,
+.signupContainer .signupFormContainer .emailContainer,
+.signupContainer .signupFormContainer .phoneNumberContainer,
+.signupContainer .signupFormContainer .passwordContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.signupContainer .signupFormContainer .fullNameContainer label,
+.signupContainer .signupFormContainer .emailContainer label,
+.signupContainer .signupFormContainer .phoneNumberContainer label,
+.signupContainer .signupFormContainer .passwordContainer label {
+  color: #4e5868;
+}
+
+.signupContainer .signupFormContainer .fullNameContainer input,
+.signupContainer .signupFormContainer .emailContainer input,
+.signupContainer .signupFormContainer .phoneNumberContainer input,
+.signupContainer .signupFormContainer .passwordContainer input {
+  margin: 10px 0;
+  width: 350px;
+  height: 50px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  background-color: #edf2f7;
+}
+
+.signupContainer .signupFormContainer button {
+  outline: none;
+  border: 2px solid #00bfff;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 10px 0;
+  color: #00bfff;
+  font-size: 15px;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+.signupContainer .signupFormContainer button:hover {
+  background-color: #00bfff;
+  color: #fff;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+.signupContainer .loginLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.signupContainer .loginLinks a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.signupContainer .loginLinks a:hover {
+  text-decoration: underline;
+}
+
+.signupContainer .loginLinks p {
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  body .signupFormContainer {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+.pwContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+}
+
+.pwContainer .logo img {
+  width: 200px;
+}
+
+.pwContainer .pwFormContainer {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.pwContainer .pwFormContainer h1 {
+  color: #00bfff;
+}
+
+.pwContainer .pwFormContainer .emailContainer,
+.pwContainer .pwFormContainer .passwordContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.pwContainer .pwFormContainer .emailContainer label,
+.pwContainer .pwFormContainer .passwordContainer label {
+  color: #4e5868;
+}
+
+.pwContainer .pwFormContainer .emailContainer input,
+.pwContainer .pwFormContainer .passwordContainer input {
+  margin: 10px 0;
+  width: 350px;
+  height: 50px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  background-color: #edf2f7;
+}
+
+.pwContainer .pwFormContainer button {
+  outline: none;
+  border: 2px solid #00bfff;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 10px 0;
+  color: #00bfff;
+  font-size: 15px;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+.pwContainer .pwFormContainer button:hover {
+  background-color: #00bfff;
+  color: #fff;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+.pwContainer .loginLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.pwContainer .loginLinks a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pwContainer .loginLinks a:hover {
+  text-decoration: underline;
+}
+
+.pwContainer .loginLinks p {
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  body .pwFormContainer {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+
+body {
+  font-family: Lato;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(6, 40, 99, 0.7)), to(rgba(6, 40, 99, 0.7))), url(../img/pj-accetturo-XpD6Dkui-yg-unsplash.jpg);
+  background: linear-gradient(rgba(6, 40, 99, 0.7), rgba(6, 40, 99, 0.7)), url(../img/pj-accetturo-XpD6Dkui-yg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.loginContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+}
+
+.loginContainer .logo img {
+  width: 200px;
+}
+
+.loginContainer .loginFormContainer {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.loginContainer .loginFormContainer h1 {
+  color: #00bfff;
+}
+
+.loginContainer .loginFormContainer .emailContainer,
+.loginContainer .loginFormContainer .passwordContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 20px;
+}
+
+.loginContainer .loginFormContainer .emailContainer label,
+.loginContainer .loginFormContainer .passwordContainer label {
+  color: #4e5868;
+}
+
+.loginContainer .loginFormContainer .emailContainer input,
+.loginContainer .loginFormContainer .passwordContainer input {
+  margin: 10px 0;
+  width: 350px;
+  height: 50px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  background-color: #edf2f7;
+}
+
+.loginContainer .loginFormContainer button {
+  outline: none;
+  border: 2px solid #00bfff;
+  width: 300px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  margin: 10px 0;
+  color: #00bfff;
+  font-size: 15px;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+.loginContainer .loginFormContainer button:hover {
+  background-color: #00bfff;
+  color: #fff;
+  -webkit-transition: ease 0.3s;
+  transition: ease 0.3s;
+}
+
+.loginContainer .loginLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.loginContainer .loginLinks a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.loginContainer .loginLinks a:hover {
+  text-decoration: underline;
+}
+
+.loginContainer .loginLinks p {
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  body .loginFormContainer {
+    background-color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

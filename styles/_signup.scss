@@ -1,0 +1,103 @@
+$gradColor: rgba(6, 40, 99, 0.7);
+$baseColor: #00bfff;
+$inputColor: #edf2f7;
+$shadeOfGrey: #4e5868;
+
+.signupContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px;
+
+  .logo {
+    img {
+      width: 200px;
+    }
+  }
+
+  .signupFormContainer {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+
+    h1 {
+      color: $baseColor;
+    }
+    .fullNameContainer,
+    .emailContainer,
+    .phoneNumberContainer,
+    .passwordContainer {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+
+      label {
+        color: $shadeOfGrey;
+      }
+      input {
+        margin: 10px 0;
+        width: 350px;
+        height: 50px;
+        border-radius: 7px;
+        outline: none;
+        border: none;
+        background-color: $inputColor;
+      }
+    }
+    button {
+      outline: none;
+      border: 2px solid $baseColor;
+      width: 300px;
+      height: 50px;
+      border-radius: 5px;
+      background-color: transparent;
+      cursor: pointer;
+      margin: 10px 0;
+      color: $baseColor;
+      font-size: 15px;
+      transition: ease 0.3s;
+      &:hover {
+        background-color: $baseColor;
+        color: #fff;
+        transition: ease 0.3s;
+      }
+    }
+  }
+  .loginLinks {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    p {
+      color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    .signupFormContainer {
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      border-radius: 10px;
+      padding: 30px;
+      margin-top: 20px;
+      width: 100%;
+    }
+  }
+}
